@@ -1,0 +1,209 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: PingFangSC-Semibold;
+}
+
+em { /* 主文本 */
+	/* font-family: PingFangSC-Semibold; font：字体属性。 */
+	font-size: 16px;
+	color: #9B9B9B;
+	margin-top: 16px; /* 外边距 */
+	/* width:100%; */
+	display: inline-block;
+	/* display 属性规定元素应该生成的框的类型，inline-block	行内块元素。 */
+	font-style: normal; /* font-style 属性定义字体的风格，normal：默认 */
+}
+
+.title { /* 标题 */
+	display: inline-block;
+	margin: 0px;
+	width: 100%;
+	background-color: gray;
+	font-weight: bold;
+	font-size: large;
+	letter-spacing: 0.2em;
+	font-style: normal;
+}
+
+#page {
+	height: 1200px;
+	width: 900px;
+	margin-top: 87px;
+	margin-left: 337px;
+	box-shadow: 0 15px 20px 23px rgba(0, 0, 0, 0.12);
+	/* position: absolute;relative:会以脚缩放
+	left:33.3%; */
+	margin: auto;
+	/* background-color: yellow; */
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 84px;
+}
+
+.head {
+	margin: auto; /* 外边距 */
+	width: 90%;
+	height: 11%;
+	/* position: absolute;
+	left: 80px; */
+	/* padding-left: 80px; */
+	/* margin-top:128px;
+	margin-left:417px; */
+	/* background-color: aqua; */
+	/* float: left;  */
+	/* 	margin-top: 2em;
+	margin-left: 3em;
+	margin-right: 3em; */
+}
+
+.div1 {
+	width: 90%;
+	padding: 10px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.div2 {
+	float: left;
+	width: 50%;
+	height: 150px;
+	/* background-color: green; */
+	/* 	margin-top: 2.3em;
+	margin-left: 3em; */
+}
+
+.div3 {
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+	/* 	height: 613px; */
+	/* background-color: gray; */
+	/* margin-top: 2.3em;
+	margin-left: 3em; */
+	/* 	margin-bottom: 2.5em; */
+}
+
+.div4 {
+	width: 40%;
+	height: 40%;
+	float: right;
+	padding-top: 30px;
+	/* margin-top: 2.3em;
+	margin-right: 3em; */
+	/* 	margin-bottom: 2.5em; */
+	/* background-color: navy; */
+	/* position: absolute;
+	left: 34em;
+	top:19.6em; */
+}
+
+.div5 {
+	float: right;
+	width: 40%;
+	height: 50%;
+	margin-top: 60px;
+	/* margin-top: 2.3em;
+	margin-right: 3em; */
+	/* background-color: orange; */
+	/* 	position: absolute;
+	left: 34em;
+	top:38.7em; */
+}
+
+#headphoto {
+	margin-right: 100px;
+	float: right;
+	background-image: url("../image/timg.jpg");
+	background-position: center;
+	background-size: 240px, 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	/* background-size: contain; 
+	background-repeat:repeat; */
+	/*  margin =0; */
+	/* clear:both; */
+	/* background-color:fuchsia; */
+
+	/* 	position: absolute;
+	left: 37.6em;
+	top:11em; */
+}
+
+#head1 {
+	float: left;
+	/* 	clear: both; */
+}
+
+#head2 {
+	float: right;
+	padding-top: 16px;
+	/* 	clear: both; */
+}
+
+h1 {
+	font-size: 30px;
+	color: #4A4A4A;
+	letter-spacing: 3px;
+}
+
+#t2 {
+	color: #9B9B9B;
+	letter-spacing: 2px;
+	/* position: absolute;
+	top: 4em; */
+	/* font-weight: normal; */
+	/* font-size: large; */
+	/* 	float: left; */
+	/* size: 30%; */
+}
+
+#img1, #img2 {
+	/* size: 50%; */
+	padding-top: 10px;
+	color: #9B9B9B;
+	direction: rtl;
+	letter-spacing: 0.05em; /* letter-spacing 属性增加或减少字符间的空白（字符间距）。 */
+}
+
+.icon {
+	/* heigth: 25px; */
+	width: 20px;
+	/* position: relative;
+	top: 0.8em; */
+	float: right;
+	padding-left: 20px;
+}
+
+span {
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* div {
+	font-size: medium; 自号中等大小
+} */
+
+/* div div:hover {
+	cursor: auto; cursor 属性规定要显示的光标的类型（形状），auto：默认
+	border: 1;
+	border-style: solid; 边框样式
+	border-color: blue;} */
+
+/* #t1 {
+		position: absolute;
+	top: 0.5em;
+	 letter-spacing: 0.2em; 
+	font-weight: bold; 字体的粗细
+}
+ */
